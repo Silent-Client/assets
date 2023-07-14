@@ -1,0 +1,18 @@
+{
+	"premium_1_months": {
+		"price": 300,
+		"normal_price": 300
+	},
+	"premium_12_months": {
+		"price": 2880,
+		"normal_price": 3600
+	},
+	"premiumplus_1_months": {
+		"price": 400,
+		"normal_price": 400
+	},
+	"premiumplus_12_months": {
+		"price": 3840,
+		"normal_price": 4800
+	}
+}

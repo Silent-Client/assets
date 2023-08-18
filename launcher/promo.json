@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "Test"
-	}
+	"alert": null
 }

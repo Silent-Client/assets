@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "Получите доступ ко <b>ВСЕЙ</b> косметики всего лишь за <strike>10$</strike> 8$: <a href=\"https://store.silentclient.net/ru/product/bundles/4\" target=\"_blank\">https://store.silentclient.net/ru/product/bundles/4</a>"
-	}
+	"alert": null
 }

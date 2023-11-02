@@ -1,6 +1,10 @@
 {
 	"panels": [
 		{
+			"imageUrl": "https://cdn.silentclient.net/assets/news/Oz8TCIuaIy15.png",
+			"redirectUrl": "https://silentclient.net/news/19"
+		},
+		{
 			"imageUrl": "https://assets.silentclient.net/client/images/promo/november_premium.png",
 			"redirectUrl": "https://store.silentclient.net/premium"
 		},
@@ -8,9 +12,5 @@
 			"imageUrl": "https://cdn.silentclient.net/assets/news/TnXATtDACOfs.png",
 			"redirectUrl": "https://store.silentclient.net/product/bundles/4"
 		}
-	],
-	"miniPanel": {
-		"imageUrl": "https://assets.silentclient.net/client/images/promo/november_premium.png",
-		"redirectUrl": "https://store.silentclient.net/premium"
-	}
+	]
 }

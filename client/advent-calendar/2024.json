@@ -1,0 +1,136 @@
+[
+	{
+		"name": "Premium – 3 Days",
+		"type": "premium",
+		"data": {
+			"days": 3
+		}
+	},
+	{
+		"name": "30% Promocode – 3 Days",
+		"type": "promocode",
+		"data": {
+			"promo": "ADVC2"
+		}
+	},
+	{
+		"name": "Hat Tier 1 Icon",
+		"type": "cosmetics",
+		"data": {
+			"type": "icons",
+			"id": 38
+		}
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
+	}
+]

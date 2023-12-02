@@ -22,11 +22,11 @@
 		}
 	},
 	{
-		"name": "Solid Lighting Wings – 5 Days",
+		"name": "Blue Winter Wings – 5 Days",
 		"type": "temp_cosmetics",
 		"data": {
 			"type": "wings",
-			"id": 9,
+			"id": 5,
 			"days": 5
 		}
 	},

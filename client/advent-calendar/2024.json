@@ -22,8 +22,13 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Solid Lighting Wings – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "wings",
+			"id": 9,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

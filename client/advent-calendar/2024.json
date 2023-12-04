@@ -31,8 +31,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "50% Promocode – 5 Days",
+		"type": "promocode",
+		"data": {
+			"promo": "XDAC5"
+		}
 	},
 	{
 		"name": "Unknown",

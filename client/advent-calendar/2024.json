@@ -38,12 +38,10 @@
 		}
 	},
 	{
-		"name": "Winter Cabin Cape – 5 Days",
-		"type": "temp_cosmetics",
+		"name": "Balance Replenishment",
+		"type": "balance",
 		"data": {
-			"type": "capes",
-			"id": 3,
-			"days": 5
+			"amount": 50
 		}
 	},
 	{

@@ -45,8 +45,13 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Christmas Lights Bandana – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "bandanas",
+			"id": 39,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

@@ -54,8 +54,12 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Hat Tier 2 Icon",
+		"type": "cosmetics",
+		"data": {
+			"type": "icons",
+			"id": 39
+		}
 	},
 	{
 		"name": "Unknown",

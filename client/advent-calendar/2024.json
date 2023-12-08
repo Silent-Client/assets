@@ -62,8 +62,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Premium – 5 Days",
+		"type": "premium",
+		"data": {
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",
@@ -110,8 +113,11 @@
 		"type": "unknown"
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Premium+ – 5 Days",
+		"type": "premium_plus",
+		"data": {
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",
@@ -130,8 +136,12 @@
 		"type": "unknown"
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Hat Tier 1 Icon",
+		"type": "cosmetics",
+		"data": {
+			"type": "icons",
+			"id": 38
+		}
 	},
 	{
 		"name": "Unknown",

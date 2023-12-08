@@ -89,8 +89,13 @@
 		"type": "unknown"
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Christmas Light Cape – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "capes",
+			"id": 256,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

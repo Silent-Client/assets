@@ -160,7 +160,11 @@
 		"type": "unknown"
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Happy 2024 Bandana",
+		"type": "cosmetics",
+		"data": {
+			"type": "bandanas",
+			"id": 38
+		}
 	}
 ]

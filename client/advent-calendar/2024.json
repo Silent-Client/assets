@@ -14,11 +14,11 @@
 		}
 	},
 	{
-		"name": "Hat Tier 1 Icon",
+		"name": "Hat Tier 3 Icon",
 		"type": "cosmetics",
 		"data": {
 			"type": "icons",
-			"id": 38
+			"id": 39
 		}
 	},
 	{

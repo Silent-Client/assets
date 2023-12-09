@@ -1,18 +1,71 @@
 {
-	"premium_1_months": {
-		"price": 300,
-		"normal_price": 300
-	},
-	"premium_12_months": {
-		"price": 2880,
-		"normal_price": 3600
-	},
-	"premiumplus_1_months": {
-		"price": 400,
-		"normal_price": 400
-	},
-	"premiumplus_12_months": {
-		"price": 3840,
-		"normal_price": 4800
-	}
+	"premium": [
+		{
+			"id": 1,
+			"name": "1 Month Subscription",
+			"price": 300,
+			"normal_price": 300,
+			"months": 1
+		},
+		{
+			"id": 2,
+			"name": "6 Months Subscription",
+			"price": 1440,
+			"normal_price": 1800,
+			"months": 6
+		},
+		{
+			"id": 3,
+			"name": "12 Months Subscription",
+			"price": 2520,
+			"normal_price": 3600,
+			"months": 12
+		}
+	],
+	"premium_plus": [
+		{
+			"id": 1,
+			"name": "1 Month Subscription",
+			"price": 400,
+			"normal_price": 400,
+			"months": 1
+		},
+		{
+			"id": 2,
+			"name": "6 Months Subscription",
+			"price": 1920,
+			"normal_price": 2400,
+			"months": 6
+		},
+		{
+			"id": 3,
+			"name": "12 Months Subscription",
+			"price": 3360,
+			"normal_price": 4800,
+			"months": 12
+		}
+	],
+	"premium_ultimate": [
+		{
+			"id": 1,
+			"name": "1 Month Subscription",
+			"price": 1000,
+			"normal_price": 1000,
+			"months": 1
+		},
+		{
+			"id": 2,
+			"name": "6 Months Subscription",
+			"price": 4800,
+			"normal_price": 6000,
+			"months": 6
+		},
+		{
+			"id": 3,
+			"name": "12 Months Subscription",
+			"price": 8400,
+			"normal_price": 12000,
+			"months": 12
+		}
+	]
 }

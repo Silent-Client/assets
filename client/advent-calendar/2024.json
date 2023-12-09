@@ -69,8 +69,13 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Frozen River Shield – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "shields",
+			"id": 28,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

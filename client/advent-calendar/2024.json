@@ -78,8 +78,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "70% Promocode – 5 Days",
+		"type": "promocode",
+		"data": {
+			"promo": "XJGEP"
+		}
 	},
 	{
 		"name": "Unknown",
@@ -103,11 +106,8 @@
 		}
 	},
 	{
-		"name": "70% Promocode – 5 Days",
-		"type": "promocode",
-		"data": {
-			"promo": "XJGEP"
-		}
+		"name": "Unknown",
+		"type": "unknown"
 	},
 	{
 		"name": "Unknown",

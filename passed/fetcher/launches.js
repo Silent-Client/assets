@@ -107,7 +107,7 @@ async function getLaunches() {
 
 	console.log(`Processed ${data.launches.length}/${data.launches.length}`);
 
-	return { size: data.launches.size };
+	return { size: data.launches.length };
 }
 
 module.exports = { getLaunches };

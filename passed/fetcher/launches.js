@@ -15,6 +15,7 @@ async function getLaunches() {
 
 	let countries = [];
 	let players = [];
+	let ips = [];
 	let index = 0;
 
 	for (const launch of data.launches) {
@@ -22,11 +23,22 @@ async function getLaunches() {
 			continue;
 		}
 		try {
-			const ipInfo = await axios.get(`http://ip-api.com/json/${launch.ip}`);
+			let ip = ips.find(e => e.query === launch.ip);
+			if (!ip) {
+				console.log("ip not founded in cache!");
+				const ipInfo = await axios.get(`http://ip-api.com/json/${launch.ip}`);
+				ips.push(ipInfo.data);
+				ip = ipInfo.data;
+				if (ipInfo.headers["x-rl"] === "0") {
+					const rateLimit = Number(ipInfo.headers["x-ttl"]) + 3;
+					console.log(`Oh... Rate limit ${rateLimit}`);
+					await sleep(rateLimit * 1000);
+				}
+			} else {
+				console.log("ip founded in cache!");
+			}
 
-			const country = countries.find(
-				e => ipInfo.data.countryCode === e.country_code
-			);
+			const country = countries.find(e => ip.countryCode === e.country_code);
 
 			if (country) {
 				country.launches += 1;
@@ -36,22 +48,14 @@ async function getLaunches() {
 					players.push(launch.user_id);
 				}
 			} else {
-				console.log(
-					`New country founded: ${ipInfo.data.country} (${ipInfo.data.countryCode})`
-				);
+				console.log(`New country founded: ${ip.country} (${ip.countryCode})`);
 				countries.push({
-					country: ipInfo.data.country,
-					country_code: ipInfo.data.countryCode,
+					country: ip.country,
+					country_code: ip.countryCode,
 					launches: 1,
 					players: 1,
 				});
 				players.push(launch.user_id);
-			}
-
-			if (ipInfo.headers["x-rl"] === "0") {
-				const rateLimit = Number(ipInfo.headers["x-ttl"]) + 3;
-				console.log(`Oh... Rate limit ${rateLimit}`);
-				await sleep(rateLimit * 1000);
 			}
 		} catch (error) {
 			if (error?.response?.headers["x-rl"] === "0") {

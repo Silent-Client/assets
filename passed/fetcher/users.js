@@ -15,6 +15,8 @@ async function getUsers() {
 	console.log(`${data.count} users registred in ${YEAR}`);
 
 	let overvall_playtime = 0;
+	let index = 0;
+	let fullIndex = 0;
 
 	for (const user of data.users) {
 		try {
@@ -28,9 +30,15 @@ async function getUsers() {
 
 			console.error(`Error! user_id: ${user.id}`, error);
 		}
+		if (index === 10) {
+			index = 0;
+			console.log(`Processed ${fullIndex + 1}/${data.users.length}`);
+		}
+		index++;
+		fullIndex++;
 	}
 
-	console.log(`All users processed!`);
+	console.log(`Processed ${data.users.length}/${data.users.length}`);
 	const minutes = Math.floor(overvall_playtime / 60);
 	console.log(`${minutes} minutes played for ${YEAR}!`);
 

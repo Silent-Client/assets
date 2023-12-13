@@ -17,6 +17,7 @@ async function getLaunches() {
 	let players = [];
 	let ips = [];
 	let index = 0;
+	let fullIndex = 0;
 
 	for (const launch of data.launches) {
 		if (launch.ip === "unknown") {
@@ -25,7 +26,6 @@ async function getLaunches() {
 		try {
 			let ip = ips.find(e => e.query === launch.ip);
 			if (!ip) {
-				console.log("ip not founded in cache!");
 				const ipInfo = await axios.get(`http://ip-api.com/json/${launch.ip}`);
 				ips.push(ipInfo.data);
 				ip = ipInfo.data;
@@ -34,8 +34,6 @@ async function getLaunches() {
 					console.log(`Oh... Rate limit ${rateLimit}`);
 					await sleep(rateLimit * 1000);
 				}
-			} else {
-				console.log("ip founded in cache!");
 			}
 
 			const country = countries.find(e => ip.countryCode === e.country_code);
@@ -48,7 +46,6 @@ async function getLaunches() {
 					players.push(launch.user_id);
 				}
 			} else {
-				console.log(`New country founded: ${ip.country} (${ip.countryCode})`);
 				countries.push({
 					country: ip.country,
 					country_code: ip.countryCode,
@@ -80,8 +77,11 @@ async function getLaunches() {
 				`../${YEAR}/countries.json`,
 				JSON.stringify(countries)
 			);
+
+			console.log(`Processed ${fullIndex + 1}/${data.launches.length}`);
 		}
 		index++;
+		fullIndex++;
 	}
 
 	if (fs.existsSync(`../${YEAR}/countries.json`)) {
@@ -104,6 +104,8 @@ async function getLaunches() {
 			})
 		)
 	);
+
+	console.log(`Processed ${data.launches.length}/${data.launches.length}`);
 
 	return { size: data.launches.size };
 }

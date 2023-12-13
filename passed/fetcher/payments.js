@@ -15,35 +15,44 @@ async function getPayments() {
 
 	let total = 0;
 	let donators = [];
+	let index = 0;
+	let fullIndex = 0;
 
 	for (const payment of data.payments) {
 		total += payment.real_amount;
 		try {
 			if (!fs.existsSync(`../${YEAR}/accounts/${payment.user_id}.json`)) {
 				console.error(`payment_id: ${payment.id}, user not found :(`);
-				continue;
-			}
-			const user = JSON.parse(
-				(
-					await fs.promises.readFile(
-						`../${YEAR}/accounts/${payment.user_id}.json`
-					)
-				).toString()
-			);
-
-			const donator = donators.find(u => u.username === user.username);
-			if (donator) {
-				donator.total += payment.real_amount;
 			} else {
-				donators.push({
-					username: user.username,
-					total: payment.real_amount,
-				});
+				const user = JSON.parse(
+					(
+						await fs.promises.readFile(
+							`../${YEAR}/accounts/${payment.user_id}.json`
+						)
+					).toString()
+				);
+
+				const donator = donators.find(u => u.username === user.username);
+				if (donator) {
+					donator.total += payment.real_amount;
+				} else {
+					donators.push({
+						username: user.username,
+						total: payment.real_amount,
+					});
+				}
 			}
 		} catch (error) {
 			console.error(`Error! payment_id: ${payment.id}`, error);
 		}
+		if (index === 10) {
+			index = 0;
+			console.log(`Processed ${fullIndex + 1}/${data.payments.length}`);
+		}
+		index++;
+		fullIndex++;
 	}
+	console.log(`Processed ${data.payments.length}/${data.payments.length}`);
 
 	console.log(`${(total / 100).toFixed(2)}$ earned in ${YEAR}!`);
 

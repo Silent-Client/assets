@@ -28,6 +28,7 @@ async function main() {
 			overvall_playtime: users.overvall_playtime,
 			launches: launches.size,
 			earned: payments.total,
+			friends: users.friends,
 		})
 	);
 }

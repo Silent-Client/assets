@@ -15,16 +15,21 @@ async function getUsers() {
 	console.log(`${data.count} users registred in ${YEAR}`);
 
 	let overvall_playtime = 0;
+	let friends = 0;
 	let index = 0;
 	let fullIndex = 0;
 
 	for (const user of data.users) {
 		try {
-			overvall_playtime += await getAccount(user);
+			const account = await getAccount(user);
+			overvall_playtime += account.playtime;
+			friends += account.friends;
 		} catch (error) {
 			if (error?.response?.status === 429) {
 				await sleep(60 * 11 * 1000);
-				overvall_playtime += await getAccount(user);
+				const account = await getAccount(user);
+				overvall_playtime += account.playtime;
+				friends += account.friends;
 				continue;
 			}
 
@@ -42,7 +47,7 @@ async function getUsers() {
 	const minutes = Math.floor(overvall_playtime / 60);
 	console.log(`${minutes} minutes played for ${YEAR}!`);
 
-	return { overvall_playtime, registred: data.count };
+	return { overvall_playtime, friends, registred: data.count };
 }
 
 async function getAccount(user) {
@@ -61,7 +66,10 @@ async function getAccount(user) {
 		JSON.stringify(account)
 	);
 
-	return account.overvall_playtime;
+	return {
+		playtime: account.overvall_playtime,
+		friends: account.friends_count,
+	};
 }
 
 module.exports = { getUsers };

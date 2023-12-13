@@ -78,7 +78,7 @@
 		}
 	},
 	{
-		"name": "70% Promocode – 5 Days",
+		"name": "70% Promocode – 3 Days",
 		"type": "promocode",
 		"data": {
 			"promo": "XJGEP"
@@ -99,8 +99,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "100% Promocode – 1 Day",
+		"type": "promocode",
+		"data": {
+			"promo": "ADVXD"
+		}
 	},
 	{
 		"name": "Christmas Light Cape – 5 Days",

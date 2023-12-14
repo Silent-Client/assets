@@ -18,18 +18,45 @@ async function getUsers() {
 	let friends = 0;
 	let index = 0;
 	let fullIndex = 0;
+	let accounts = [];
 
 	for (const user of data.users) {
 		try {
-			const account = await getAccount(user);
-			overvall_playtime += account.playtime;
-			friends += account.friends;
+			let account = await getAccount(user);
+			if (fs.existsSync(`../${YEAR - 1}/accounts/${user.id}.json`)) {
+				const prevAccount = JSON.parse(
+					(
+						await fs.promises.readFile(
+							`../${YEAR - 1}/accounts/${user.id}.json`
+						)
+					).toString()
+				);
+				account.overvall_playtime -= prevAccount.overvall_playtime;
+			}
+			overvall_playtime += account.overvall_playtime;
+			friends += account.friends_count;
+
+			accounts.push(account);
 		} catch (error) {
 			if (error?.response?.status === 429) {
 				await sleep(60 * 11 * 1000);
-				const account = await getAccount(user);
-				overvall_playtime += account.playtime;
-				friends += account.friends;
+
+				let account = await getAccount(user);
+				if (fs.existsSync(`../${YEAR - 1}/accounts/${user.id}.json`)) {
+					const prevAccount = JSON.parse(
+						(
+							await fs.promises.readFile(
+								`../${YEAR - 1}/accounts/${user.id}.json`
+							)
+						).toString()
+					);
+					account.overvall_playtime -= prevAccount.overvall_playtime;
+				}
+				overvall_playtime += account.overvall_playtime;
+				friends += account.friends_count;
+
+				accounts.push(account);
+
 				continue;
 			}
 
@@ -46,6 +73,31 @@ async function getUsers() {
 	console.log(`Processed ${data.users.length}/${data.users.length}`);
 	const minutes = Math.floor(overvall_playtime / 60);
 	console.log(`${minutes} minutes played for ${YEAR}!`);
+
+	accounts = accounts.sort((a, b) => {
+		if (a.overvall_playtime < b.overvall_playtime) {
+			return 1;
+		}
+		if (a.overvall_playtime > b.overvall_playtime) {
+			return -1;
+		}
+		return 0;
+	});
+
+	accounts.length = 10;
+
+	await fs.promises.writeFile(
+		`../${YEAR}/playtime.json`,
+		JSON.stringify(
+			accounts.map(account => {
+				return {
+					id: account.id,
+					username: account.username,
+					overvall_playtime: account.overvall_playtime,
+				};
+			})
+		)
+	);
 
 	return { overvall_playtime, friends, registred: data.count };
 }
@@ -66,10 +118,7 @@ async function getAccount(user) {
 		JSON.stringify(account)
 	);
 
-	return {
-		playtime: account.overvall_playtime,
-		friends: account.friends_count,
-	};
+	return account;
 }
 
 module.exports = { getUsers };

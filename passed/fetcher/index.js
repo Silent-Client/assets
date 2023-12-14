@@ -1,6 +1,5 @@
 require("dotenv").config();
 
-const axios = require("axios");
 const fs = require("fs");
 const { getUsers } = require("./users");
 const { getLaunches } = require("./launches");

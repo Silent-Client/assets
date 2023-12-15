@@ -15,7 +15,6 @@ async function getUsers() {
 	console.log(`${data.count} users registred in ${YEAR}`);
 
 	let overvall_playtime = 0;
-	let friends = 0;
 	let index = 0;
 	let fullIndex = 0;
 	let accounts = [];
@@ -34,7 +33,6 @@ async function getUsers() {
 				account.overvall_playtime -= prevAccount.overvall_playtime;
 			}
 			overvall_playtime += account.overvall_playtime;
-			friends += account.friends_count;
 
 			accounts.push(account);
 		} catch (error) {
@@ -53,7 +51,6 @@ async function getUsers() {
 					account.overvall_playtime -= prevAccount.overvall_playtime;
 				}
 				overvall_playtime += account.overvall_playtime;
-				friends += account.friends_count;
 
 				accounts.push(account);
 
@@ -99,7 +96,7 @@ async function getUsers() {
 		)
 	);
 
-	return { overvall_playtime, friends, registred: data.count };
+	return { overvall_playtime, registred: data.count };
 }
 
 async function getAccount(user) {

@@ -122,8 +122,13 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Blue Shine Crown – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "hats",
+			"id": 9,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

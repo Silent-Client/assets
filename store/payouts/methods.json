@@ -7,7 +7,8 @@
 			{
 				"type": "string",
 				"name": "card_number",
-				"display_name": "Card Number"
+				"display_name": "Card Number",
+				"inputmode": "numeric"
 			}
 		],
 		"min_amount": 100,
@@ -79,12 +80,13 @@
 			{
 				"type": "string",
 				"name": "phone_number",
-				"display_name": "Phone Number"
+				"display_name": "Phone Number",
+				"inputmode": "tel"
 			},
 			{
 				"type": "select",
 				"name": "bank",
-				"display_name": "Bank",
+				"display_name": "Select bank",
 				"values": [
 					"Альфа Банк",
 					"ВТБ",
@@ -114,7 +116,8 @@
 			{
 				"type": "string",
 				"name": "phone_number",
-				"display_name": "Phone Number"
+				"display_name": "Phone Number",
+				"inputmode": "tel"
 			}
 		],
 		"min_amount": 100,

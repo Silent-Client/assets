@@ -86,7 +86,7 @@
 			{
 				"type": "select",
 				"name": "bank",
-				"display_name": "Select bank",
+				"display_name": "Bank",
 				"values": [
 					"Альфа Банк",
 					"ВТБ",

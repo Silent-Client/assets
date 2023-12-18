@@ -1,0 +1,166 @@
+[
+	{
+		"id": 1,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/card.png",
+		"name": "Visa, MasterCard, Мир (Russia)",
+		"fields": [
+			{
+				"type": "string",
+				"name": "card_number",
+				"display_name": "Card Number"
+			}
+		],
+		"min_amount": 100,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 15,
+			"amount": 50
+		},
+		"long_wait": true
+	},
+	{
+		"id": 2,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/card.png",
+		"name": "Visa, MasterCard (Europe)",
+		"fields": [
+			{
+				"type": "string",
+				"name": "full_name",
+				"display_name": "Full Name"
+			},
+			{
+				"type": "string",
+				"name": "name",
+				"display_name": "IBAN Code"
+			}
+		],
+		"min_amount": 1000,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 20,
+			"amount": 0
+		},
+		"long_wait": true
+	},
+	{
+		"id": 3,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/card.png",
+		"name": "Visa, MasterCard (Swift)",
+		"fields": [
+			{
+				"type": "string",
+				"name": "full_name",
+				"display_name": "Full Name"
+			},
+			{
+				"type": "string",
+				"name": "swift_code",
+				"display_name": "SWIFT/BIC Code"
+			},
+			{
+				"type": "string",
+				"name": "iban",
+				"display_name": "IBAN/Account Number"
+			}
+		],
+		"min_amount": 1000,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 20,
+			"amount": 100
+		},
+		"long_wait": true
+	},
+	{
+		"id": 4,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/sbp.png",
+		"name": "СБП",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			},
+			{
+				"type": "select",
+				"name": "bank",
+				"display_name": "Bank",
+				"values": [
+					"Альфа Банк",
+					"ВТБ",
+					"Газпромбанк",
+					"МТС-Банк",
+					"ОТП Банк",
+					"Совкомбанк",
+					"Сбербанк",
+					"Тинькофф Банк",
+					"ЮМани"
+				]
+			}
+		],
+		"min_amount": 100,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 12,
+			"amount": 0
+		},
+		"long_wait": true
+	},
+	{
+		"id": 5,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/qiwi.png",
+		"name": "Qiwi",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			}
+		],
+		"min_amount": 100,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 10,
+			"amount": 0
+		},
+		"long_wait": true
+	},
+	{
+		"id": 6,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/ym.svg",
+		"name": "YooMoney",
+		"fields": [
+			{
+				"type": "string",
+				"name": "account_number",
+				"display_name": "Account Number"
+			}
+		],
+		"min_amount": 100,
+		"max_amount": 100000,
+		"comission": {
+			"percent": 10,
+			"amount": 0
+		},
+		"long_wait": true
+	},
+	{
+		"id": 7,
+		"icon": "https://assets.silentclient.net/store/payouts/icons/usdt.png",
+		"name": "USDT TRC20",
+		"fields": [
+			{
+				"type": "string",
+				"name": "address",
+				"display_name": "TRC20 Address"
+			}
+		],
+		"min_amount": 400,
+		"max_amount": 1000000,
+		"comission": {
+			"percent": 20,
+			"amount": 300
+		},
+		"long_wait": true
+	}
+]

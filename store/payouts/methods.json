@@ -67,7 +67,7 @@
 		"max_amount": 100000,
 		"comission": {
 			"percent": 20,
-			"amount": 100
+			"amount": 0
 		},
 		"long_wait": true
 	},

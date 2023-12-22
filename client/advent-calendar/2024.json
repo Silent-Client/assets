@@ -166,8 +166,13 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "White Mask – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "hats",
+			"id": 30,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

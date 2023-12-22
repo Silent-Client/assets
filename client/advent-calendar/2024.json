@@ -159,8 +159,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "100% Promocode – 1 Day",
+		"type": "promocode",
+		"data": {
+			"promo": "UYRDX"
+		}
 	},
 	{
 		"name": "Unknown",

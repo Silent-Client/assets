@@ -175,8 +175,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Balance Replenishment",
+		"type": "balance",
+		"data": {
+			"amount": 5
+		}
 	},
 	{
 		"name": "Unknown",

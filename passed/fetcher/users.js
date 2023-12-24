@@ -1,6 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 const { sleep } = require("./utils");
+const { generateImages } = require("./resultsImage");
 
 const YEAR = new Date().getFullYear();
 const TOKEN = process.env.SECRET_TOKEN;
@@ -61,15 +62,22 @@ async function getUsers() {
 		}
 		if (index === 10) {
 			index = 0;
-			console.log(`Processed ${fullIndex + 1}/${data.users.length}`);
+			console.log(
+				`Processed ${fullIndex + 1}/${data.users.length} (users_task)`
+			);
 		}
 		index++;
 		fullIndex++;
 	}
 
-	console.log(`Processed ${data.users.length}/${data.users.length}`);
+	console.log(
+		`Processed ${data.users.length}/${data.users.length} (users_task)`
+	);
 	const minutes = Math.floor(overvall_playtime / 60);
 	console.log(`${minutes} minutes played for ${YEAR}!`);
+
+	console.log("Generating passed images...");
+	await generateImages(accounts);
 
 	accounts = accounts.sort((a, b) => {
 		if (a.overvall_playtime < b.overvall_playtime) {

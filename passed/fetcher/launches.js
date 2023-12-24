@@ -78,7 +78,9 @@ async function getLaunches() {
 				JSON.stringify(countries)
 			);
 
-			console.log(`Processed ${fullIndex + 1}/${data.launches.length}`);
+			console.log(
+				`Processed ${fullIndex + 1}/${data.launches.length} (launches_task)`
+			);
 		}
 		index++;
 		fullIndex++;
@@ -105,7 +107,9 @@ async function getLaunches() {
 		)
 	);
 
-	console.log(`Processed ${data.launches.length}/${data.launches.length}`);
+	console.log(
+		`Processed ${data.launches.length}/${data.launches.length} (launches_task)`
+	);
 
 	return { size: data.launches.length };
 }

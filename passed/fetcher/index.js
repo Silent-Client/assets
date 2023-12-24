@@ -5,6 +5,7 @@ const { getUsers } = require("./users");
 const { getLaunches } = require("./launches");
 const { getPayments } = require("./payments");
 const axios = require("axios");
+const { getServerJoins } = require("./serverJoins");
 
 const YEAR = new Date().getFullYear();
 const TOKEN = process.env.SECRET_TOKEN;
@@ -21,6 +22,8 @@ async function main() {
 	console.log("");
 	const payments = await getPayments();
 	console.log("");
+	const serverJoins = await getServerJoins();
+	console.log("");
 	const friends = await getFriendsCount();
 	console.log("");
 	const downloads = await getDownloadsCount();
@@ -35,6 +38,7 @@ async function main() {
 			earned: payments.total,
 			friends: friends,
 			downloads: downloads,
+			server_joins: serverJoins.total,
 		})
 	);
 }

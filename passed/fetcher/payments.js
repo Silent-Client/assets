@@ -1,6 +1,5 @@
 const axios = require("axios");
 const fs = require("fs");
-const { sleep } = require("./utils");
 
 const YEAR = new Date().getFullYear();
 const TOKEN = process.env.SECRET_TOKEN;
@@ -47,12 +46,16 @@ async function getPayments() {
 		}
 		if (index === 10) {
 			index = 0;
-			console.log(`Processed ${fullIndex + 1}/${data.payments.length}`);
+			console.log(
+				`Processed ${fullIndex + 1}/${data.payments.length} (payments_task)`
+			);
 		}
 		index++;
 		fullIndex++;
 	}
-	console.log(`Processed ${data.payments.length}/${data.payments.length}`);
+	console.log(
+		`Processed ${data.payments.length}/${data.payments.length} (payments_task)`
+	);
 
 	console.log(`${(total / 100).toFixed(2)}$ earned in ${YEAR}!`);
 

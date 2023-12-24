@@ -11,7 +11,6 @@ async function generateImages(accounts) {
 	await fs.promises.mkdir("./temp", { recursive: true });
 
 	const templatePath = `./assets/passed_template_${YEAR}.png`;
-	const loadedImage = await jimp.read(templatePath);
 	const onestExtraBold64 = await jimp.loadFont(
 		"./assets/onest-extrabold-64.fnt"
 	);
@@ -21,6 +20,7 @@ async function generateImages(accounts) {
 	let fullIndex = 0;
 
 	for (const account of accounts) {
+		const loadedImage = await jimp.read(templatePath);
 		const userImagePath = `../${YEAR}/accounts/${account.id}.png`;
 		let skinPath = `./temp/${account.username}.png`;
 		try {
@@ -41,7 +41,7 @@ async function generateImages(accounts) {
 			178,
 			`${account.username.toUpperCase()}'S STATS`
 		);
-		const skin = await jimp.read(`./temp/${account.username}.png`);
+		const skin = await jimp.read(skinPath);
 		await loadedImage.composite(skin, 41, 46);
 
 		// Total Playtime

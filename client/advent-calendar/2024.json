@@ -182,16 +182,16 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
-	},
-	{
 		"name": "Hat Tier 1 Icon",
 		"type": "cosmetics",
 		"data": {
 			"type": "icons",
 			"id": 38
 		}
+	},
+	{
+		"name": "Unknown",
+		"type": "unknown"
 	},
 	{
 		"name": "Unknown",

@@ -190,8 +190,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "200% Promocode – 1 Day",
+		"type": "promocode",
+		"data": {
+			"promo": "OMG2P"
+		}
 	},
 	{
 		"name": "Unknown",

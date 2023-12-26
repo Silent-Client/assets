@@ -23,22 +23,21 @@ async function generateImages(accounts) {
 		const loadedImage = await jimp.read(templatePath);
 		const userImagePath = `../${YEAR}/accounts/${account.id}.png`;
 		let skinPath = `./temp/${account.username}.png`;
-		try {
-			const dl = new DownloaderHelper(
-				`https://mc-heads.net/body/${account.username}/158.png`,
-				__dirname + "/temp",
-				{ fileName: `${account.username}.png` }
-			);
 
-			await dl.start().catch(err => {throw new Error("fd")});
-		} catch (error) {
+		const dl = new DownloaderHelper(
+			`https://mc-heads.net/body/${account.username}/158.png`,
+			__dirname + "/temp",
+			{ fileName: `${account.username}.png` }
+		);
+		dl.on("error", () => {
 			skinPath = "./assets/steve.png";
-		}
+		});
+		await dl.start().catch(() => (skinPath = "./assets/steve.png"));
 
 		await loadedImage.print(
 			onestExtraBold64,
 			233,
-			178,
+			175,
 			`${account.username.toUpperCase()}'S STATS`
 		);
 		const skin = await jimp.read(skinPath);

@@ -30,7 +30,7 @@ async function generateImages(accounts) {
 				{ fileName: `${account.username}.png` }
 			);
 
-			await dl.start().catch(err => console.log(err));
+			await dl.start().catch(err => {throw new Error("fd")});
 		} catch (error) {
 			skinPath = "./assets/steve.png";
 		}

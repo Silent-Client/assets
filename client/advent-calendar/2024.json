@@ -197,8 +197,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Premium – 3 Days",
+		"type": "premium",
+		"data": {
+			"days": 3
+		}
 	},
 	{
 		"name": "Unknown",

@@ -38,7 +38,7 @@ async function generateImages(accounts) {
 			onestExtraBold64,
 			233,
 			175,
-			`${account.username.toUpperCase()}'S STATS`
+			`${account.username.toUpperCase()}'S ${YEAR}`
 		);
 		const skin = await jimp.read(skinPath);
 		await loadedImage.composite(skin, 41, 46);
@@ -126,7 +126,7 @@ async function generateImages(accounts) {
 				{
 					text:
 						account.top_server_joins.length !== 0
-							? `Joined ${account.top_server_joins[0].joins}${
+							? `Joined ${account.top_server_joins[0].joins} times${
 									YEAR === 2023 ? " from 22 December" : ""
 							  }`
 							: "",

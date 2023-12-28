@@ -204,15 +204,20 @@
 		}
 	},
 	{
-		"name": "100% Promocode – 3 Days",
+		"name": "Blue Winter Wings – 5 Days",
 		"type": "promocode",
 		"data": {
 			"promo": "ADVB4"
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Blue Winter Wings – 5 Days",
+		"type": "temp_cosmetics",
+		"data": {
+			"type": "wings",
+			"id": 5,
+			"days": 5
+		}
 	},
 	{
 		"name": "Unknown",

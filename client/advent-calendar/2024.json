@@ -204,8 +204,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "100% Promocode – 3 Days",
+		"type": "promocode",
+		"data": {
+			"promo": "ADVB4"
+		}
 	},
 	{
 		"name": "Unknown",

@@ -220,8 +220,11 @@
 		}
 	},
 	{
-		"name": "Unknown",
-		"type": "unknown"
+		"name": "Balance Replenishment",
+		"type": "balance",
+		"data": {
+			"amount": 5
+		}
 	},
 	{
 		"name": "Happy 2024 Bandana",

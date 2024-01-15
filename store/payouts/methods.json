@@ -18,7 +18,7 @@
 			"percent": 15,
 			"amount": 65
 		},
-		"long_wait": true
+		"long_wait": false
 	},
 	{
 		"id": 2,
@@ -110,7 +110,7 @@
 			"percent": 12,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": false
 	},
 	{
 		"id": 5,
@@ -131,7 +131,7 @@
 			"percent": 10,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": false
 	},
 	{
 		"id": 6,
@@ -151,7 +151,7 @@
 			"percent": 10,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": false
 	},
 	{
 		"id": 7,
@@ -171,6 +171,6 @@
 			"percent": 20,
 			"amount": 300
 		},
-		"long_wait": true
+		"long_wait": false
 	}
 ]

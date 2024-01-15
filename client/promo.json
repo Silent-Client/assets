@@ -1,8 +1,12 @@
 {
-        "panels": [
-                {
-                        "imageUrl": "https://cdn.silentclient.net/assets/news/GVgh0bMLajza.png",
-                        "redirectUrl": "https://silentclient.net/news/23"
-                }
-        ]
+	"panels": [
+		{
+			"imageUrl": "https://cdn.silentclient.net/assets/news/9Lpsm21fY20C.png",
+			"redirectUrl": "https://store.silentclient.net"
+		},
+		{
+			"imageUrl": "https://cdn.silentclient.net/assets/news/GVgh0bMLajza.png",
+			"redirectUrl": "https://silentclient.net/news/23"
+		}
+	]
 }

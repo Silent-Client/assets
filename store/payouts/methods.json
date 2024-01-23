@@ -172,5 +172,81 @@
 			"amount": 300
 		},
 		"long_wait": false
+	},
+	{
+		"id": 8,
+		"type": "auto",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/megafon.png",
+		"name": "Megafon",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			}
+		],
+		"min_amount": 150,
+		"max_amount": 15000,
+		"commission": {
+			"percent": 20
+		},
+		"long_wait": false
+	},
+	{
+		"id": 9,
+		"type": "auto",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/beeline.png",
+		"name": "Beeline",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			}
+		],
+		"min_amount": 150,
+		"max_amount": 15000,
+		"commission": {
+			"percent": 20
+		},
+		"long_wait": false
+	},
+	{
+		"id": 10,
+		"type": "auto",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/mts.png",
+		"name": "MTS",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			}
+		],
+		"min_amount": 150,
+		"max_amount": 15000,
+		"commission": {
+			"percent": 20
+		},
+		"long_wait": false
+	},
+	{
+		"id": 11,
+		"type": "auto",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/tele2.png",
+		"name": "Tele2",
+		"fields": [
+			{
+				"type": "string",
+				"name": "phone_number",
+				"display_name": "Phone Number"
+			}
+		],
+		"min_amount": 150,
+		"max_amount": 15000,
+		"commission": {
+			"percent": 20
+		},
+		"long_wait": false
 	}
 ]

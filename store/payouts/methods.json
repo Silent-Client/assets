@@ -188,7 +188,8 @@
 		"min_amount": 150,
 		"max_amount": 15000,
 		"commission": {
-			"percent": 20
+			"percent": 20,
+			"amount": 0
 		},
 		"long_wait": false
 	},
@@ -207,7 +208,8 @@
 		"min_amount": 150,
 		"max_amount": 15000,
 		"commission": {
-			"percent": 20
+			"percent": 20,
+			"amount": 0
 		},
 		"long_wait": false
 	},
@@ -226,7 +228,8 @@
 		"min_amount": 150,
 		"max_amount": 15000,
 		"commission": {
-			"percent": 20
+			"percent": 20,
+			"amount": 0
 		},
 		"long_wait": false
 	},
@@ -245,7 +248,8 @@
 		"min_amount": 150,
 		"max_amount": 15000,
 		"commission": {
-			"percent": 20
+			"percent": 20,
+			"amount": 0
 		},
 		"long_wait": false
 	}

@@ -191,7 +191,7 @@
 				"display_name": "TRC20 Address"
 			}
 		],
-		"min_amount": 400,
+		"min_amount": 1000,
 		"max_amount": 1000000,
 		"commission": {
 			"percent": 20,

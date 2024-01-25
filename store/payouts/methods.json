@@ -21,6 +21,32 @@
 		"long_wait": false
 	},
 	{
+		"id": 12,
+		"type": "manual",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/card.png",
+		"name": "Visa, MasterCard (Ukraine)",
+		"fields": [
+			{
+				"type": "string",
+				"name": "full_name",
+				"display_name": "Full Name"
+			},
+			{
+				"type": "string",
+				"name": "card_number",
+				"display_name": "Card Number",
+				"inputmode": "numeric"
+			}
+		],
+		"min_amount": 1000,
+		"max_amount": 100000,
+		"commission": {
+			"percent": 20,
+			"amount": 0
+		},
+		"long_wait": true
+	},
+	{
 		"id": 2,
 		"type": "manual",
 		"icon": "https://assets.silentclient.net/store/payouts/icons/card.png",

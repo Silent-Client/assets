@@ -5,6 +5,11 @@
 		"server": "https://cdn.silentclient.net"
 	},
 	{
+		"id": "ru2",
+		"name": "Russia, Moscow (Proxy)",
+		"server": "https://3dfded44-99fc-4d93-8298-c352b209956f.selstorage.ru"
+	},
+	{
 		"id": "de",
 		"name": "Germany, Falkenstein",
 		"server": "https://api.silentclient.net"

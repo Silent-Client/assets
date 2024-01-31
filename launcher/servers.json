@@ -1,8 +1,8 @@
 [
 	{
 		"id": "ru",
-		"name": "Russia, Moscow (Proxy)",
-		"server": "https://764d04db-65fa-4708-a968-1dbbf217835f.selcdn.net"
+		"name": "Russia, Moscow",
+		"server": "https://cdn.silentclient.net"
 	},
 	{
 		"id": "de",

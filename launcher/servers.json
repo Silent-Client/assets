@@ -2,7 +2,7 @@
 	{
 		"id": "us-west",
 		"name": "USA",
-		"server": "https://cdn-test.silentclient.net"
+		"server": "https://cdn-test.silentclient.net/file/silentclient"
 	},
 	{
 		"id": "ru",

@@ -5,6 +5,11 @@
 		"server": "https://cdn-test.silentclient.net/file/silentclient"
 	},
 	{
+		"id": "ru",
+		"name": "Russia, Moscow",
+		"server": "https://cdn.silentclient.net"
+	},
+	{
 		"id": "de",
 		"name": "Germany, Falkenstein",
 		"server": "https://api.silentclient.net"

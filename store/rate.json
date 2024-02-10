@@ -1,0 +1,13 @@
+{
+	"buymeacoffee": {
+		"default": 200
+	},
+	"freekassa": { "default": 100 },
+	"anypay": { "default": 100 },
+	"cryptomus": {
+		"RU": 100,
+		"BY": 100,
+		"KZ": 100,
+		"default": 200
+	}
+}

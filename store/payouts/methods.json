@@ -18,7 +18,8 @@
 			"percent": 15,
 			"amount": 65
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 12,
@@ -44,7 +45,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": true,
+		"currency": "EUR"
 	},
 	{
 		"id": 2,
@@ -69,7 +71,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": true,
+		"currency": "EUR"
 	},
 	{
 		"id": 3,
@@ -99,7 +102,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": true
+		"long_wait": true,
+		"currency": "EUR"
 	},
 	{
 		"id": 4,
@@ -136,7 +140,8 @@
 			"percent": 12,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 5,
@@ -157,7 +162,8 @@
 			"percent": 10,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 6,
@@ -177,7 +183,8 @@
 			"percent": 10,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 7,
@@ -197,7 +204,8 @@
 			"percent": 20,
 			"amount": 300
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "USD"
 	},
 	{
 		"id": 8,
@@ -217,7 +225,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 9,
@@ -237,7 +246,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 10,
@@ -257,7 +267,8 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	},
 	{
 		"id": 11,
@@ -277,6 +288,7 @@
 			"percent": 20,
 			"amount": 0
 		},
-		"long_wait": false
+		"long_wait": false,
+		"currency": "RUB"
 	}
 ]

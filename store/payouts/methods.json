@@ -130,8 +130,7 @@
 					"Совкомбанк",
 					"Сбербанк",
 					"Тинькофф Банк",
-					"ЮМани",
-					"QIWI Кошелек (КИВИ Банк)"
+					"ЮМани"
 				]
 			}
 		],
@@ -139,28 +138,6 @@
 		"max_amount": 100000,
 		"commission": {
 			"percent": 12,
-			"amount": 0
-		},
-		"long_wait": false,
-		"currency": "RUB"
-	},
-	{
-		"id": 5,
-		"type": "auto",
-		"icon": "https://assets.silentclient.net/store/payouts/icons/qiwi.png",
-		"name": "Qiwi",
-		"fields": [
-			{
-				"type": "string",
-				"name": "phone_number",
-				"display_name": "Phone Number",
-				"inputmode": "tel"
-			}
-		],
-		"min_amount": 150,
-		"max_amount": 100000,
-		"commission": {
-			"percent": 10,
 			"amount": 0
 		},
 		"long_wait": false,

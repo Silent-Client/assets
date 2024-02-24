@@ -12,7 +12,7 @@
 				"inputmode": "numeric"
 			}
 		],
-		"min_amount": 1500,
+		"min_amount": 200,
 		"max_amount": 100000,
 		"commission": {
 			"percent": 15,

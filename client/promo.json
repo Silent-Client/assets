@@ -1,12 +1,8 @@
 {
 	"panels": [
 		{
-			"imageUrl": "https://cdn-test.silentclient.net/file/silentclient/assets/news/sMIBWh3wxBok.png",
-			"redirectUrl": "https://store.silentclient.net/servers"
-		},
-		{
-			"imageUrl": "https://cdn-test.silentclient.net/file/silentclient/assets/news/dFCaVKogchiD.png",
-			"redirectUrl": "https://silentclient.freshdesk.com/support/solutions/articles/154000123751-tech-support-application"
+			"imageUrl": "https://cdn-test.silentclient.net/file/silentclient/assets/news/s0B2Gwetw5xj.png",
+			"redirectUrl": "https://silentclient.net/news/27"
 		}
 	]
 }

@@ -67,7 +67,7 @@
 	{
 		"name": "Australia",
 		"code": "AU",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Austria",
@@ -147,12 +147,12 @@
 	{
 		"name": "Bouvet Island",
 		"code": "BV",
-		"currency": { "code": "NOK", "symbol": "NKr" }
+		"currency": { "code": "NOK", "symbol": " NKr" }
 	},
 	{
 		"name": "Brazil",
 		"code": "BR",
-		"currency": { "code": "BRL", "symbol": "R$" }
+		"currency": { "code": "BRL", "symbol": "$" }
 	},
 	{
 		"name": "British Indian Ocean Territory",
@@ -167,7 +167,7 @@
 	{
 		"name": "Bulgaria",
 		"code": "BG",
-		"currency": { "code": "BGN", "symbol": "лв" }
+		"currency": { "code": "BGN", "symbol": " лв" }
 	},
 	{
 		"name": "Burkina Faso",
@@ -192,7 +192,7 @@
 	{
 		"name": "Canada",
 		"code": "CA",
-		"currency": { "code": "CAD", "symbol": "C$" }
+		"currency": { "code": "CAD", "symbol": "$" }
 	},
 	{
 		"name": "Cape Verde",
@@ -227,12 +227,12 @@
 	{
 		"name": "Christmas Island",
 		"code": "CX",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Cocos (Keeling) Islands",
 		"code": "CC",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Colombia",
@@ -257,7 +257,7 @@
 	{
 		"name": "Cook Islands",
 		"code": "CK",
-		"currency": { "code": "NZD", "symbol": "NZ$" }
+		"currency": { "code": "NZD", "symbol": "$" }
 	},
 	{
 		"name": "Costa Rica",
@@ -287,12 +287,12 @@
 	{
 		"name": "Czech Republic",
 		"code": "CZ",
-		"currency": { "code": "CZK", "symbol": "Kč" }
+		"currency": { "code": "CZK", "symbol": " Kč" }
 	},
 	{
 		"name": "Denmark",
 		"code": "DK",
-		"currency": { "code": "DKK", "symbol": "kr" }
+		"currency": { "code": "DKK", "symbol": " kr" }
 	},
 	{
 		"name": "Djibouti",
@@ -317,7 +317,7 @@
 	{
 		"name": "Egypt",
 		"code": "EG",
-		"currency": { "code": "EGP", "symbol": "LE" }
+		"currency": { "code": "EGP", "symbol": " LE" }
 	},
 	{
 		"name": "El Salvador",
@@ -352,7 +352,7 @@
 	{
 		"name": "Faroe Islands",
 		"code": "FO",
-		"currency": { "code": "DKK", "symbol": "kr" }
+		"currency": { "code": "DKK", "symbol": " kr" }
 	},
 	{
 		"name": "Fiji",
@@ -422,7 +422,7 @@
 	{
 		"name": "Greenland",
 		"code": "GL",
-		"currency": { "code": "DKK", "symbol": "kr" }
+		"currency": { "code": "DKK", "symbol": " kr" }
 	},
 	{
 		"name": "Grenada",
@@ -472,7 +472,7 @@
 	{
 		"name": "Heard Island and Mcdonald Islands",
 		"code": "HM",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Holy See (Vatican City State)",
@@ -487,12 +487,12 @@
 	{
 		"name": "Hong Kong",
 		"code": "HK",
-		"currency": { "code": "HKD", "symbol": "HK$" }
+		"currency": { "code": "HKD", "symbol": "$" }
 	},
 	{
 		"name": "Hungary",
 		"code": "HU",
-		"currency": { "code": "HUF", "symbol": "Ft" }
+		"currency": { "code": "HUF", "symbol": " Ft" }
 	},
 	{
 		"name": "Iceland",
@@ -507,7 +507,7 @@
 	{
 		"name": "Indonesia",
 		"code": "ID",
-		"currency": { "code": "IDR", "symbol": "Rp" }
+		"currency": { "code": "IDR", "symbol": " Rp" }
 	},
 	{
 		"name": "Iran, Islamic Republic Of",
@@ -572,7 +572,7 @@
 	{
 		"name": "Kiribati",
 		"code": "KI",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Korea, Democratic People'S Republic of",
@@ -592,7 +592,7 @@
 	{
 		"name": "Kyrgyzstan",
 		"code": "KG",
-		"currency": { "code": "KGS", "symbol": "KGS" }
+		"currency": { "code": "KGS", "symbol": " KGS" }
 	},
 	{
 		"name": "Lao People'S Democratic Republic",
@@ -627,7 +627,7 @@
 	{
 		"name": "Liechtenstein",
 		"code": "LI",
-		"currency": { "code": "CHF", "symbol": "SFr" }
+		"currency": { "code": "CHF", "symbol": " SFr" }
 	},
 	{
 		"name": "Lithuania",
@@ -757,7 +757,7 @@
 	{
 		"name": "Nauru",
 		"code": "NR",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Nepal",
@@ -782,7 +782,7 @@
 	{
 		"name": "New Zealand",
 		"code": "NZ",
-		"currency": { "code": "NZD", "symbol": "NZ$" }
+		"currency": { "code": "NZD", "symbol": "$" }
 	},
 	{
 		"name": "Nicaragua",
@@ -802,12 +802,12 @@
 	{
 		"name": "Niue",
 		"code": "NU",
-		"currency": { "code": "NZD", "symbol": "NZ$" }
+		"currency": { "code": "NZD", "symbol": "$" }
 	},
 	{
 		"name": "Norfolk Island",
 		"code": "NF",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Northern Mariana Islands",
@@ -817,7 +817,7 @@
 	{
 		"name": "Norway",
 		"code": "NO",
-		"currency": { "code": "NOK", "symbol": "NOK" }
+		"currency": { "code": "NOK", "symbol": " NOK" }
 	},
 	{
 		"name": "Oman",
@@ -872,7 +872,7 @@
 	{
 		"name": "Poland",
 		"code": "PL",
-		"currency": { "code": "PLN", "symbol": "zł" }
+		"currency": { "code": "PLN", "symbol": " zł" }
 	},
 	{
 		"name": "Portugal",
@@ -897,7 +897,7 @@
 	{
 		"name": "Romania",
 		"code": "RO",
-		"currency": { "code": "RON", "symbol": "RON" }
+		"currency": { "code": "RON", "symbol": " RON" }
 	},
 	{
 		"name": "Russian Federation",
@@ -977,7 +977,7 @@
 	{
 		"name": "Singapore",
 		"code": "SG",
-		"currency": { "code": "SGD", "symbol": "S$" }
+		"currency": { "code": "SGD", "symbol": "$" }
 	},
 	{
 		"name": "Slovakia",
@@ -1032,7 +1032,7 @@
 	{
 		"name": "Svalbard and Jan Mayen",
 		"code": "SJ",
-		"currency": { "code": "NOK", "symbol": "NOK" }
+		"currency": { "code": "NOK", "symbol": " NOK" }
 	},
 	{
 		"name": "Swaziland",
@@ -1042,12 +1042,12 @@
 	{
 		"name": "Sweden",
 		"code": "SE",
-		"currency": { "code": "SEK", "symbol": "kr" }
+		"currency": { "code": "SEK", "symbol": " kr" }
 	},
 	{
 		"name": "Switzerland",
 		"code": "CH",
-		"currency": { "code": "CHF", "symbol": "SFr" }
+		"currency": { "code": "CHF", "symbol": " SFr" }
 	},
 	{
 		"name": "Syrian Arab Republic",
@@ -1087,7 +1087,7 @@
 	{
 		"name": "Tokelau",
 		"code": "TK",
-		"currency": { "code": "NZD", "symbol": "NZ$" }
+		"currency": { "code": "NZD", "symbol": "$" }
 	},
 	{
 		"name": "Tonga",
@@ -1112,7 +1112,7 @@
 	{
 		"name": "Turkmenistan",
 		"code": "TM",
-		"currency": { "code": "TMT", "symbol": "TMT" }
+		"currency": { "code": "TMT", "symbol": " TMT" }
 	},
 	{
 		"name": "Turks and Caicos Islands",
@@ -1122,7 +1122,7 @@
 	{
 		"name": "Tuvalu",
 		"code": "TV",
-		"currency": { "code": "AUD", "symbol": "AU$" }
+		"currency": { "code": "AUD", "symbol": "$" }
 	},
 	{
 		"name": "Uganda",
@@ -1137,7 +1137,7 @@
 	{
 		"name": "United Arab Emirates",
 		"code": "AE",
-		"currency": { "code": "AED", "symbol": "DH" }
+		"currency": { "code": "AED", "symbol": " DH" }
 	},
 	{
 		"name": "United Kingdom",
@@ -1162,7 +1162,7 @@
 	{
 		"name": "Uzbekistan",
 		"code": "UZ",
-		"currency": { "code": "UZS", "symbol": "лв" }
+		"currency": { "code": "UZS", "symbol": " лв" }
 	},
 	{
 		"name": "Vanuatu",

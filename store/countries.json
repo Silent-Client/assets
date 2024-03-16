@@ -902,7 +902,7 @@
 	{
 		"name": "Russian Federation",
 		"code": "RU",
-		"currency": { "code": "USD", "symbol": "$" }
+		"currency": { "code": "RUB", "symbol": "₽" }
 	},
 	{
 		"name": "RWANDA",

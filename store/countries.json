@@ -102,7 +102,7 @@
 	{
 		"name": "Belarus",
 		"code": "BY",
-		"currency": { "code": "USD", "symbol": "$" }
+		"currency": { "code": "RUB", "symbol": "₽" }
 	},
 	{
 		"name": "Belgium",
@@ -1137,7 +1137,7 @@
 	{
 		"name": "United Arab Emirates",
 		"code": "AE",
-		"currency": { "code": "AED", "symbol": " DH" }
+		"currency": { "code": "AED", "symbol": " AED" }
 	},
 	{
 		"name": "United Kingdom",

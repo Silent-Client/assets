@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "10$ Giveaway in our <b>Telegram channel:</b> <a href=\"https://t.me/silent_client/301\" target=\"_blank\">https://t.me/silentclient</a>"
-	}
+	"alert": null
 }

@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "Donate using <b>TON</b> and <b>multiply your donation up to 3 times</b>: <a href=\"https://t.me/SLCTonBot\" target=\"_blank\">t.me/SLCTonBot</a>"
-	}
+	"alert": null
 }

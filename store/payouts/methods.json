@@ -1,5 +1,36 @@
 [
 	{
+		"id": 14,
+		"type": "manual",
+		"icon": "https://assets.aithercol.com/wallet/payment-icons/bank.png",
+		"name": "Банковский счет (Russia)",
+		"fields": [
+			{
+				"type": "string",
+				"name": "bik",
+				"display_name": "БИК"
+			},
+			{
+				"type": "string",
+				"name": "corr_account",
+				"display_name": "Корр.счёт"
+			},
+			{
+				"type": "string",
+				"name": "account",
+				"display_name": "Расчётный счёт"
+			}
+		],
+		"min_amount": 1,
+		"max_amount": 10000000,
+		"commission": {
+			"percent": 0,
+			"amount": 0
+		},
+		"long_wait": false,
+		"currency": "RUB"
+	},
+	{
 		"id": 13,
 		"type": "auto",
 		"icon": "https://assets.silentclient.net/store/payouts/icons/aithercol.png",

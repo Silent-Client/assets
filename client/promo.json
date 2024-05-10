@@ -1,6 +1,10 @@
 {
 	"panels": [
 		{
+			"imageUrl": "https://cdn-test.silentclient.net/file/silentclient/assets/news/AnNuVv5aPtj6.png",
+			"redirectUrl": "https://silentclient.net/news/29"
+		},
+		{
 			"imageUrl": "https://cdn-test.silentclient.net/file/silentclient/assets/news/ayw7AS8wKegH.png",
 			"redirectUrl": "https://store.silentclient.net/cosmetics/custom"
 		}

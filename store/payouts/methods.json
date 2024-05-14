@@ -29,31 +29,10 @@
 		"min_amount": 1,
 		"max_amount": 10000000,
 		"commission": {
-			"percent": 0,
-			"amount": 0
+			"percent": 2,
+			"amount": 120
 		},
 		"long_wait": false,
 		"currency": "RUB"
-	},
-	{
-		"id": 13,
-		"type": "auto",
-		"icon": "https://assets.silentclient.net/store/payouts/icons/aithercol.png",
-		"name": "AitherCol Wallet",
-		"fields": [
-			{
-				"type": "string",
-				"name": "wallet",
-				"display_name": "Wallet ID"
-			}
-		],
-		"min_amount": 1,
-		"max_amount": 10000000,
-		"commission": {
-			"percent": 0,
-			"amount": 0
-		},
-		"long_wait": false,
-		"currency": "USD"
 	}
 ]

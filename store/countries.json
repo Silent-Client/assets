@@ -123,7 +123,7 @@
 		"name": "Belarus",
 		"code": "BY",
 		"currency": { "code": "RUB", "symbol": "₽" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "Belgium",
@@ -351,7 +351,7 @@
 		"name": "Denmark",
 		"code": "DK",
 		"currency": { "code": "DKK", "symbol": " kr" },
-		"extra": 100
+		"extra": 150
 	},
 	{
 		"name": "Djibouti",
@@ -585,7 +585,7 @@
 		"name": "Hong Kong",
 		"code": "HK",
 		"currency": { "code": "HKD", "symbol": "$" },
-		"extra": 100
+		"extra": 200
 	},
 	{
 		"name": "Hungary",
@@ -675,7 +675,7 @@
 		"name": "Kazakhstan",
 		"code": "KZ",
 		"currency": { "code": "KZT", "symbol": "₸" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "Kenya",
@@ -1083,7 +1083,7 @@
 		"name": "Russian Federation",
 		"code": "RU",
 		"currency": { "code": "RUB", "symbol": "₽" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "RWANDA",
@@ -1329,7 +1329,7 @@
 		"name": "Turkey",
 		"code": "TR",
 		"currency": { "code": "TRY", "symbol": "₺" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "Turkmenistan",
@@ -1359,7 +1359,7 @@
 		"name": "Ukraine",
 		"code": "UA",
 		"currency": { "code": "UAH", "symbol": "₴" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "United Arab Emirates",
@@ -1371,13 +1371,13 @@
 		"name": "United Kingdom",
 		"code": "GB",
 		"currency": { "code": "GBP", "symbol": "£" },
-		"extra": 100
+		"extra": 150
 	},
 	{
 		"name": "United States",
 		"code": "US",
 		"currency": { "code": "USD", "symbol": "$" },
-		"extra": 100
+		"extra": 300
 	},
 	{
 		"name": "United States Minor Outlying Islands",
@@ -1395,7 +1395,7 @@
 		"name": "Uzbekistan",
 		"code": "UZ",
 		"currency": { "code": "UZS", "symbol": " лв" },
-		"extra": 100
+		"extra": 50
 	},
 	{
 		"name": "Vanuatu",

@@ -7,6 +7,11 @@
 		"fields": [
 			{
 				"type": "string",
+				"name": "name",
+				"display_name": "ФИО"
+			},
+			{
+				"type": "string",
 				"name": "bik",
 				"display_name": "БИК"
 			},

@@ -7,7 +7,6 @@
 			"normal_price": 300,
 			"months": 1
 		},
-
 		{
 			"id": 3,
 			"name": "12 Months Subscription",
@@ -41,7 +40,6 @@
 			"normal_price": 1000,
 			"months": 1
 		},
-
 		{
 			"id": 3,
 			"name": "12 Months Subscription",

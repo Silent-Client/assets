@@ -7,13 +7,7 @@
 			"normal_price": 300,
 			"months": 1
 		},
-		{
-			"id": 2,
-			"name": "6 Months Subscription",
-			"price": 1440,
-			"normal_price": 1800,
-			"months": 6
-		},
+
 		{
 			"id": 3,
 			"name": "12 Months Subscription",
@@ -30,13 +24,7 @@
 			"normal_price": 400,
 			"months": 1
 		},
-		{
-			"id": 2,
-			"name": "6 Months Subscription",
-			"price": 1920,
-			"normal_price": 2400,
-			"months": 6
-		},
+
 		{
 			"id": 3,
 			"name": "12 Months Subscription",
@@ -53,13 +41,7 @@
 			"normal_price": 1000,
 			"months": 1
 		},
-		{
-			"id": 2,
-			"name": "6 Months Subscription",
-			"price": 4800,
-			"normal_price": 6000,
-			"months": 6
-		},
+
 		{
 			"id": 3,
 			"name": "12 Months Subscription",

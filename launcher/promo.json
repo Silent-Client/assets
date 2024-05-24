@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "Added payment by <b>bank card from all over the world:</b> <a href=\"https://store.silentclient.net\" target=\"_blank\">store.silentclient.net</a>"
-	}
+	"alert": null
 }

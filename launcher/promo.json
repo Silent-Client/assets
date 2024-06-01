@@ -1,6 +1,3 @@
 {
-	"alert": {
-		"status": "info",
-		"text": "Promo 4$ for you and friends: <a href=\"https://store.silentclient.net/promocodes\" target=\"_blank\">store.silentclient.net/promocodes</a>"
-	}
+	"alert": null
 }

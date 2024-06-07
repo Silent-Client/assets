@@ -1,6 +1,27 @@
 [
 	{
-		"id": 14,
+		"id": 21,
+		"type": "manual",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/ton.png",
+		"name": "Ton",
+		"fields": [
+			{
+				"type": "string",
+				"name": "address",
+				"display_name": "address"
+			}
+		],
+		"min_amount": 1,
+		"max_amount": 10000000,
+		"commission": {
+			"percent": 0,
+			"amount": 200
+		},
+		"long_wait": false,
+		"currency": "RUB"
+	},
+	{
+		"id": 20,
 		"type": "manual",
 		"icon": "https://assets.aithercol.com/wallet/payment-icons/bank.png",
 		"name": "Банковский счет (Russia)",
@@ -29,8 +50,8 @@
 		"min_amount": 1,
 		"max_amount": 10000000,
 		"commission": {
-			"percent": 2,
-			"amount": 120
+			"percent": 0,
+			"amount": 200
 		},
 		"long_wait": false,
 		"currency": "RUB"

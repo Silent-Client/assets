@@ -8,7 +8,7 @@
 			{
 				"type": "string",
 				"name": "address",
-				"display_name": "address"
+				"display_name": "Address"
 			}
 		],
 		"min_amount": 100,

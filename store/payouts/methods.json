@@ -11,14 +11,14 @@
 				"display_name": "address"
 			}
 		],
-		"min_amount": 1,
+		"min_amount": 100,
 		"max_amount": 10000000,
 		"commission": {
-			"percent": 0,
-			"amount": 200
+			"percent": 20,
+			"amount": 0
 		},
 		"long_wait": false,
-		"currency": "RUB"
+		"currency": "USD"
 	},
 	{
 		"id": 20,
@@ -47,7 +47,7 @@
 				"display_name": "Расчётный счёт"
 			}
 		],
-		"min_amount": 1,
+		"min_amount": 250,
 		"max_amount": 10000000,
 		"commission": {
 			"percent": 0,

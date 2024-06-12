@@ -1,5 +1,26 @@
 [
 	{
+		"id": 21,
+		"type": "manual",
+		"icon": "https://assets.silentclient.net/store/payouts/icons/ton.png",
+		"name": "Ton",
+		"fields": [
+			{
+				"type": "string",
+				"name": "address",
+				"display_name": "Address"
+			}
+		],
+		"min_amount": 200,
+		"max_amount": 10000000,
+		"commission": {
+			"percent": 0,
+			"amount": 150
+		},
+		"long_wait": false,
+		"currency": "USD"
+	},
+	{
 		"id": 20,
 		"type": "manual",
 		"icon": "https://assets.aithercol.com/wallet/payment-icons/bank.png",

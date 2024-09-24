@@ -24,7 +24,7 @@
 		"id": 20,
 		"type": "manual",
 		"icon": "https://assets.aithercol.com/wallet/payment-icons/bank.png",
-		"name": "Банковский счет (Russia)",
+		"name": "Банковская карта (Russia)",
 		"fields": [
 			{
 				"type": "string",
@@ -33,25 +33,20 @@
 			},
 			{
 				"type": "string",
-				"name": "bik",
-				"display_name": "БИК"
+				"name": "number",
+				"display_name": "Номер телефона"
 			},
 			{
 				"type": "string",
-				"name": "corr_account",
-				"display_name": "Корр.счёт"
-			},
-			{
-				"type": "string",
-				"name": "account",
-				"display_name": "Расчётный счёт"
+				"name": "card_number",
+				"display_name": "Номер карты"
 			}
 		],
-		"min_amount": 250,
-		"max_amount": 10000000,
+		"min_amount": 50,
+		"max_amount": 25000,
 		"commission": {
-			"percent": 0,
-			"amount": 200
+			"percent": 3,
+			"amount": 0
 		},
 		"long_wait": false,
 		"currency": "RUB"

@@ -42,7 +42,7 @@
 				"display_name": "Номер карты"
 			}
 		],
-		"min_amount": 50,
+		"min_amount": 100,
 		"max_amount": 25000,
 		"commission": {
 			"percent": 5,

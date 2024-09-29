@@ -45,8 +45,8 @@
 		"min_amount": 50,
 		"max_amount": 25000,
 		"commission": {
-			"percent": 3,
-			"amount": 0
+			"percent": 5,
+			"amount": 50
 		},
 		"long_wait": false,
 		"currency": "RUB"

@@ -1,9 +1,16 @@
 [
     {
         "name": "Premium – 3 Days",
-        "type": "premium", 
+        "type": "premium",
         "data": {
             "days": 3
+        }
+    },
+    {
+        "name": "15% Promocode – 2 Days",
+        "type": "promocode",
+        "data": {
+            "promo": "D4E5F"
         }
     },
     {
@@ -23,7 +30,7 @@
         }
     },
     {
-        "name": "Balance Replenishment", 
+        "name": "Balance Replenishment",
         "type": "balance",
         "data": {
             "amount": 10
@@ -38,7 +45,7 @@
     },
     {
         "name": "25% Promocode – 2 Days",
-        "type": "promocode", 
+        "type": "promocode",
         "data": {
             "promo": "FLMOY"
         }
@@ -76,14 +83,14 @@
         "name": "Cape – 5 Days",
         "type": "temp_cosmetics",
         "data": {
-            "type": "capes", 
+            "type": "capes",
             "id": 256,
             "days": 5
         }
     },
     {
         "name": "Balance Replenishment",
-        "type": "balance", 
+        "type": "balance",
         "data": {
             "amount": 15
         }
@@ -105,7 +112,14 @@
         }
     },
     {
-        "name": "27% Promocode – 1 Day", 
+        "name": "15% Promocode – 2 Days",
+        "type": "promocode",
+        "data": {
+            "promo": "G6H7I"
+        }
+    },
+    {
+        "name": "27% Promocode – 1 Day",
         "type": "promocode",
         "data": {
             "promo": "GD7C9"
@@ -198,6 +212,13 @@
         }
     },
     {
+        "name": "15% Promocode – 2 Days",
+        "type": "promocode",
+        "data": {
+            "promo": "J9K0L"
+        }
+    },
+    {
         "name": "Balance Replenishment",
         "type": "balance",
         "data": {
@@ -206,7 +227,7 @@
     },
     {
         "name": "Premium – 5 Days",
-        "type": "premium", 
+        "type": "premium",
         "data": {
             "days": 5
         }

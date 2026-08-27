@@ -3,15 +3,15 @@
 		{
 			"id": 1,
 			"name": "1 Month Subscription",
-			"price": 200,
-			"normal_price": 200,
+			"price": 300,
+			"normal_price": 300,
 			"months": 1
 		},
 		{
 			"id": 3,
 			"name": "12 Months Subscription",
-			"price": 1920,
-			"normal_price": 2400,
+			"price": 2880,
+			"normal_price": 3600,
 			"months": 12
 		}
 	],
@@ -19,16 +19,16 @@
 		{
 			"id": 1,
 			"name": "1 Month Subscription",
-			"price": 300,
-			"normal_price": 300,
+			"price": 450,
+			"normal_price": 450,
 			"months": 1
 		},
 
 		{
 			"id": 3,
 			"name": "12 Months Subscription",
-			"price": 2880,
-			"normal_price": 3600,
+			"price": 4320,
+			"normal_price": 5400,
 			"months": 12
 		}
 	],
